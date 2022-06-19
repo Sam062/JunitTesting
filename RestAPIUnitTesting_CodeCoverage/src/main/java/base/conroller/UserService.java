@@ -2,6 +2,8 @@ package base.conroller;
 
 import org.springframework.stereotype.Service;
 
+import base.model.UserModel;
+
 @Service
 public class UserService {
 	

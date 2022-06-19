@@ -19,8 +19,8 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import base.conroller.UserController;
-import base.conroller.UserModel;
 import base.conroller.UserService;
+import base.model.UserModel;
 
 @WebMvcTest(value = UserController.class)
 public class UserControllerTest {

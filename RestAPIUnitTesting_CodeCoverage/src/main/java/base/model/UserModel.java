@@ -1,4 +1,4 @@
-package base.conroller;
+package base.model;
 
 public class UserModel {
 

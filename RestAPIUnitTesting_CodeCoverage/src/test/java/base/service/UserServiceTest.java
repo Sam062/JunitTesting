@@ -4,10 +4,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 
-import base.conroller.UserModel;
 import base.conroller.UserService;
+import base.model.UserModel;
 
 @WebMvcTest(value = UserService.class)
 public class UserServiceTest {
